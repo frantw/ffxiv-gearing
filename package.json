@@ -14,6 +14,7 @@
     "build": "rspack build --mode=production",
     "analyze": "rspack build --mode=production --analyze",
     "publish": "node publish.js",
+    "deploy": "gh-pages -d dist",
     "data-fetch": "node data/fetch.js",
     "data-convert": "node data/convert.js",
     "lint": "eslint --ext .js,.ts,.tsx ."
@@ -30,6 +31,7 @@
     "@rmwc/tabs": "^8.0.8",
     "@rmwc/textfield": "^8.0.8",
     "clsx": "^2.1.1",
+    "gh-pages": "^6.1.1",
     "mobx": "^6.13.2",
     "mobx-react-lite": "^4.0.7",
     "mobx-state-tree": "^6.0.1",
