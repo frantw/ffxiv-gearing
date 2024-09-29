@@ -623,6 +623,6 @@ export const syncLevelIsPopular: { [index: number]: boolean } = {
   345: true, 375: true, 475: true, 605: true, 635: true,  // Ultimate Raids
   695: true,  // Unreal Trials
 };
-export const syncLevelOfJobLevels = { 50: 130, 60: 270, 70: 400, 80: 530, 90: 660, 100: 790 };
+export const syncLevelOfJobLevels = { 50: 130, 60: 270, 70: 400, 80: 530, 90: 665, 100: 790 };
 
 export const bluMdmgAdditions = require('../data/out/bluMdmgAdditions').default as number[];

@@ -183,7 +183,7 @@
       data.job = currentSheet.classJobName;
       data.jobLevel = currentSheet.level;
       data.syncLevel = currentSheet.ilvlSync;
-      if (data.syncLevel === 665) data.syncLevel = undefined;  // prefer job level sync in this case
+      // if (data.syncLevel === 665) data.syncLevel = undefined;  // prefer job level sync in this case
     }
 
   } catch (e) { debugger; }  // eslint-disable-line no-debugger, @typescript-eslint/no-unused-vars
